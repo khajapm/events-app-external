@@ -1,11 +1,13 @@
 <ul >
   {{#events}}
+  <div style="background-color: lightgrey; width: 300px; border: 15px solid green; padding: 50px; margin: 20px;">
     <li>
         <h2>Title: {{ title }}</h2>
-        <p>Desc: {{ description }}</p>
-        <p>Location: {{ location }}</p>
-        Img: {{eventImage}}
+        <p><b>Desc:</b> {{ description }}</p>
+        <p><b>Location:</b> {{ location }}</p>
+        <!--Img: {{eventImage}} -->
     </li>
+    </div>
   {{/events}}
   
 </ul>
